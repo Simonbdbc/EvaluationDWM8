@@ -10,6 +10,10 @@ body {
 .degrade{
     background: linear-gradient(135deg, #7B0900, #DABAB8) fixed;
 }
+.navbar {
+    background-color: #000;
+    color: white;
+}
 li {
     list-style: none;
 }
@@ -28,6 +32,10 @@ a:hover {
     display: flex;
     flex-direction: column;
 }
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+}
 .center{
     text-align: center;
     justify-content: center;
@@ -38,20 +46,34 @@ a:hover {
     flex-shrink: 1;
 }
 .style-col{
-    padding: 10px 20px;
+    width: 10vw;
+    height: 5vh;
     background-color: transparent;
     text-align: center;
     border: 1px solid #fff;
 }
 .style-col-titre{
-    padding: 10px 20px;
+    width: 10vw;
+    height: 5vh;
     background-color: #fff;
     opacity: 0.8;
     color: #901910;
     text-align: center;
     border: 1px solid #000;
 }
-.navbar {
-    background-color: #000;
-    color: white;
+.input-style-col {
+    width: 40vw;
+    height: 5vh;
+    background-color: transparent;
+    text-align: center;
+    border: 1px solid #fff;
+}
+.label-style-col-titre {
+    width: 40vw;
+    height: 5vh;
+    background-color: #fff;
+    opacity: 0.8;
+    color: #901910;
+    text-align: center;
+    border: 1px solid #000;
 }

@@ -15,3 +15,9 @@
 
 Route::get('/', 'HomeController@index');
 Route::get('/create', 'CreateController@index');
+
+Route::post('/vin/insert', 'VinController@insertOne');
+Route::post('/vin/update', 'VinController@updateOneAction');
+
+Route::get('/vin/delete/{id}', 'VinController@deleteOne');
+Route::get('/vin/update/{id}', 'VinController@updateOne');

@@ -1,5 +1,4 @@
 @extends('layouts.base')
-
 @section('title', 'Accueil')
 @section('main')
 <section>
@@ -8,6 +7,7 @@
         <h1 class="accueil">Liste des Produits :</h1>
     </div>
 </div>
+<div class="flex-container center">
 <div class="flex-container">
   <div class="column">
       <ul>
@@ -16,6 +16,7 @@
       <li class="column style-col">{{ $vin->name }}</li>
       @endforeach
       </ul>
+  </div>
   </div>
   <div class="flex-container">
   <div class="column">
@@ -26,6 +27,7 @@
       @endforeach
       </ul>
   </div>
+  </div>
   <div class="flex-container">
   <div class="column">
       <ul>
@@ -35,6 +37,7 @@
       @endforeach
       </ul>
   </div>
+  </div>
   <div class="flex-container">
   <div class="column">
       <ul>
@@ -43,6 +46,8 @@
       <li class="column style-col">{{ $vin->region }}</li>
       @endforeach
       </ul>
+  </div>
+  </div>
   </div>
             
 </section>
