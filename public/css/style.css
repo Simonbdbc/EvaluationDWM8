@@ -17,6 +17,9 @@ body {
 li {
     list-style: none;
 }
+ul{
+    padding: 0;
+}
 a {
     color: inherit;
     text-decoration: inherit;
@@ -46,13 +49,25 @@ a:hover {
     flex-shrink: 1;
 }
 .style-col{
+    margin: 0;
     width: 10vw;
     height: 5vh;
-    background-color: transparent;
+    background-color: #fff;
+    opacity: 0.8;
     text-align: center;
-    border: 1px solid #fff;
+    border: 1px solid #901910;
+}
+.style-col-fa{
+    margin: 0;
+    width: 10vw;
+    height: 5vh;
+    background-color: #fff;
+    opacity: 0.8;
+    text-align: center;
+    border: 1px solid #901910;
 }
 .style-col-titre{
+    margin: 0;
     width: 10vw;
     height: 5vh;
     background-color: #fff;

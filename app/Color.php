@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Producteur extends Model
+class Color extends Model
 {
-    //
+    public $timestamps = false;
 }

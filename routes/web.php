@@ -12,12 +12,13 @@
 */
 
 
+Route::get('/', 'BaseController@index');
 
-Route::get('/', 'HomeController@index');
+Route::get('/read', 'BaseController@read');
 Route::get('/create', 'CreateController@index');
 
-Route::post('/vin/insert', 'VinController@insertOne');
-Route::post('/vin/update', 'VinController@updateOneAction');
+Route::post('/bottle/insert', 'BottleController@insertOne');
+Route::post('/bottle/update', 'BottleController@updateOneAction');
 
-Route::get('/vin/delete/{id}', 'VinController@deleteOne');
-Route::get('/vin/update/{id}', 'VinController@updateOne');
+Route::get('/bottle/delete/{id}', 'BottleController@deleteOne');
+Route::get('/bottle/update/{id}', 'BottleController@updateOne');
